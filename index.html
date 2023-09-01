@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    
+</head>
+<style>
+    table,tr,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+             margin-left: 570px;
+             margin-bottom: 300px;
+        }
+        td{
+            width: 90px;
+            height: 90px;
+            transition: all .3s;
+            cursor: pointer;
+        }
+        h1{
+            text-align: center;
+            transition: all .5s;
+            cursor: pointer;
+            margin: auto;
+            margin-bottom: 100px;
+        }
+     
+
+        }
+       h1 {
+       font-weight: bold;
+       }
+      
+        h1{
+            font-size: 40px;
+        }
+        h1:hover{
+            transform: scale(1.4);
+
+        }
+        .h{
+            background-color: darkgray;
+        }
+        .s{
+            background-color: rgb(34, 117, 9);
+        }
+        td:hover{
+            transform: scale(1.4);
+
+        }
+        body{
+            background-image: url(/chess3.png);
+            background-size: cover;
+             text-align: center;
+        }
+        h1 {
+            
+            color: white;
+            animation-name: chess-anime;
+            animation-duration: 0.75s;
+            animation-timing-function: ease-in-ease-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+          }
+          @keyframes chess-anime {
+            from {color: rgb(255, 0, 0);}
+            to {color: rgb(51, 9, 107);}
+          }
+          h1{
+            width: 138px;
+            height: 45px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 0.25s;
+          }
+          
+          @keyframes example {
+            from {background-color: red;}
+            to {background-color: yellow;}
+            }
+        
+          body {
+            background-color: black;
+          }
+    
+    .black{
+        padding-left: 13px;
+        font-size: 60px;
+    }
+
+        .white{
+        padding-left: 13px;
+        font-size: 60px;
+    }
+    
+</style>
+<body>
+    <h1  style="color: rgb(240, 233, 228);">CHESS</h1>
+
+    <table>
+        <tr>
+            <td class="h"><span class="black">♜</span></td>
+            <td class="s"><span class="black">♞</span></td>
+            <td class="h"><span class="black">♝</span></td>
+            <td class="s"><span class="black">♛</span></td>
+            <td class="h"><span class="black">♚</span></td>
+            <td class="s"><span class="black">♝</span></td>
+            <td class="h"><span class="black">♞</span></td>
+            <td class="s"><span class="black">♜</span></td>
+        </tr>
+        <tr>
+            <td class="s"><span class="black">♟</span></td>
+            <td class="h"><span class="black">♟</span></td>
+            <td class="s"><span class="black">♟</span></td>
+            <td class="h"><span class="black">♟</span></td>
+            <td class="s"><span class="black">♟</span></td>
+            <td class="h"><span class="black">♟</span></td>
+            <td class="s"><span class="black">♟</span></td>
+            <td class="h"><span class="black">♟</span></td>
+        </tr>
+        <tr>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>       
+         </tr>
+        <tr>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+        </tr>
+        <tr>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+
+        </tr>
+        <tr>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+            <td class="s"></td>
+            <td class="h"></td>
+        </tr>
+        <tr>
+            <td class="h"><span class="white">♙</span></td>
+            <td class="s"><span class="white">♙</span></td>
+            <td class="h"><span class="white">♙</span></td>
+            <td class="s"><span class="white">♙</span></td>
+            <td class="h"><span class="white">♙</span></td>
+            <td class="s"><span class="white">♙</span></td>
+            <td class="h"><span class="white">♙</span></td>
+            <td class="s"><span class="white">♙</span></td>
+
+        </tr>
+        <tr>
+            <td class="s"><span class="white">♖</span></td>
+            <td class="h"><span class="white">♘</span></td>
+            <td class="s"><span class="white">♗</span></td>
+            <td class="h"><span class="white">♕</span></td>
+            <td class="s"><span class="white">♔</span></td>
+            <td class="h"><span class="white">♗</span></td>
+            <td class="s"><span class="white">♘</span>♘</td>
+            <td class="h"><span class="white">♖</span></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
